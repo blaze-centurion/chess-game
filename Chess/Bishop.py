@@ -24,8 +24,7 @@ class Bishop(Piece):
 
 	def _traverse_right_diagonal(self, piece, board):
 		moves = {}
-
-
+		
 		try:
 			for x in [1,-1]:
 				i = 1 if x > 0 else -1
